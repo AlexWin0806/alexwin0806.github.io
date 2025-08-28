@@ -1,0 +1,22 @@
+/* Basic styling with your specified colors */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #06402B;
+    color: #CDEBC5;
+    font-family: Montserrat, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 0;
+    padding: 20px;
+}
