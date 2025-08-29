@@ -6,10 +6,74 @@
     <title>AlexIsAW's Blog</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">Where Stream's Converge</h1>
+    <div class="rain-container" id="rainContainer"></div>
+    
+    <!-- Logo Container -->
+    <div class="logo-container">
+        <div class="logo">
+            <div class="logo-text">AW</div>
+        </div>
     </div>
+    
+    <!-- Settings Button -->
+    <div class="settings-button" id="settingsButton">
+    <img src="https://cdn-icons-png.flaticon.com/512/3132/3132084.png" 
+         alt="Settings" 
+         width="24" 
+         height="24">
+    </div>
+    
+    <!-- Settings Panel -->
+    <div class="settings-panel" id="settingsPanel">
+        <div class="settings-header">
+            <h3>settings</h3>
+            <button class="close-btn" id="closeSettings">×</button>
+        </div>
+        <div class="setting-item">
+            <label for="rainAmount">rain amount:</label>
+            <input type="range" id="rainAmount" min="0" max="10" value="2" class="rain-slider">
+            <span class="rain-value" id="rainValue">5</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1 class="title">
+            <span class="title-word title-word-1">watch</span>
+            <span class="title-word title-word-2">the rain</span>
+            <span class="title-word title-word-3">fall</span>
+        </h1>
+        
+        <!-- Additional content sections -->
+        <section class="content-section">
+            <h2>welcome to my blog</h2>
+            <p></p>
+        </section>
+        
+        <section class="content-section">
+            <h2>About This Space</h2>
+            <p>This is a place where you can pause, breathe, and simply watch the rain fall. Sometimes the most profound moments come from the simplest acts of observation.</p>
+        </section>
+        
+        <section class="content-section">
+            <h2>Rain Philosophy</h2>
+            <p>Like raindrops that eventually find their way to the ocean, our thoughts and experiences flow together to create something greater than the sum of their parts.</p>
+        </section>
+        
+        <section class="content-section">
+            <h2>Take Your Time</h2>
+            <p>There's no rush here. The rain will continue to fall, and you can continue to watch. Sometimes the best meditation is simply being present with nature's rhythms.</p>
+        </section>
+        
+        <section class="content-section">
+            <h2>Reflections</h2>
+            <p>As you scroll through this page, let the gentle rain remind you that growth often comes from moments of quiet contemplation. Each drop is a reminder that change is constant and beautiful.</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
